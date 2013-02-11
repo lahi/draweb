@@ -18,7 +18,7 @@
 		2248B0DA16C92AD7008BA6ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0D916C92AD7008BA6ED /* Default-568h@2x.png */; };
 		2248B0DD16C92AD7008BA6ED /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0DB16C92AD7008BA6ED /* MainStoryboard_iPhone.storyboard */; };
 		2248B0E016C92AD7008BA6ED /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0DE16C92AD7008BA6ED /* MainStoryboard_iPad.storyboard */; };
-		2248B0E316C92AD7008BA6ED /* DWFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B0E216C92AD7008BA6ED /* DWFirstViewController.m */; };
+		2248B0E316C92AD7008BA6ED /* DWWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B0E216C92AD7008BA6ED /* DWWebViewController.m */; };
 		2248B0E516C92AD7008BA6ED /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0E416C92AD7008BA6ED /* first.png */; };
 		2248B0E716C92AD7008BA6ED /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0E616C92AD7008BA6ED /* first@2x.png */; };
 		2248B0EA16C92AD7008BA6ED /* DWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B0E916C92AD7008BA6ED /* DWSecondViewController.m */; };
@@ -57,8 +57,8 @@
 		2248B0D916C92AD7008BA6ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2248B0DC16C92AD7008BA6ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		2248B0DF16C92AD7008BA6ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		2248B0E116C92AD7008BA6ED /* DWFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWFirstViewController.h; sourceTree = "<group>"; };
-		2248B0E216C92AD7008BA6ED /* DWFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWFirstViewController.m; sourceTree = "<group>"; };
+		2248B0E116C92AD7008BA6ED /* DWWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWWebViewController.h; sourceTree = "<group>"; };
+		2248B0E216C92AD7008BA6ED /* DWWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWWebViewController.m; sourceTree = "<group>"; };
 		2248B0E416C92AD7008BA6ED /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		2248B0E616C92AD7008BA6ED /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		2248B0E816C92AD7008BA6ED /* DWSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWSecondViewController.h; sourceTree = "<group>"; };
@@ -130,12 +130,11 @@
 		2248B0C916C92AD7008BA6ED /* draweb */ = {
 			isa = PBXGroup;
 			children = (
+				2248B10C16C92C1E008BA6ED /* WebTab */,
 				2248B0D216C92AD7008BA6ED /* DWAppDelegate.h */,
 				2248B0D316C92AD7008BA6ED /* DWAppDelegate.m */,
 				2248B0DB16C92AD7008BA6ED /* MainStoryboard_iPhone.storyboard */,
 				2248B0DE16C92AD7008BA6ED /* MainStoryboard_iPad.storyboard */,
-				2248B0E116C92AD7008BA6ED /* DWFirstViewController.h */,
-				2248B0E216C92AD7008BA6ED /* DWFirstViewController.m */,
 				2248B0E416C92AD7008BA6ED /* first.png */,
 				2248B0E616C92AD7008BA6ED /* first@2x.png */,
 				2248B0E816C92AD7008BA6ED /* DWSecondViewController.h */,
@@ -178,6 +177,15 @@
 				2248B0FE16C92AD8008BA6ED /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2248B10C16C92C1E008BA6ED /* WebTab */ = {
+			isa = PBXGroup;
+			children = (
+				2248B0E116C92AD7008BA6ED /* DWWebViewController.h */,
+				2248B0E216C92AD7008BA6ED /* DWWebViewController.m */,
+			);
+			name = WebTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +306,7 @@
 			files = (
 				2248B0D016C92AD7008BA6ED /* main.m in Sources */,
 				2248B0D416C92AD7008BA6ED /* DWAppDelegate.m in Sources */,
-				2248B0E316C92AD7008BA6ED /* DWFirstViewController.m in Sources */,
+				2248B0E316C92AD7008BA6ED /* DWWebViewController.m in Sources */,
 				2248B0EA16C92AD7008BA6ED /* DWSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +420,7 @@
 		2248B10716C92AD8008BA6ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "draweb/draweb-Prefix.pch";
 				INFOPLIST_FILE = "draweb/draweb-Info.plist";
@@ -423,6 +432,7 @@
 		2248B10816C92AD8008BA6ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "draweb/draweb-Prefix.pch";
 				INFOPLIST_FILE = "draweb/draweb-Info.plist";
