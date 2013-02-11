@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2248B0C416C92AD7008BA6ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248B0C316C92AD7008BA6ED /* UIKit.framework */; };
+		2248B0C616C92AD7008BA6ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248B0C516C92AD7008BA6ED /* Foundation.framework */; };
+		2248B0C816C92AD7008BA6ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248B0C716C92AD7008BA6ED /* CoreGraphics.framework */; };
+		2248B0CE16C92AD7008BA6ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0CC16C92AD7008BA6ED /* InfoPlist.strings */; };
+		2248B0D016C92AD7008BA6ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B0CF16C92AD7008BA6ED /* main.m */; };
+		2248B0D416C92AD7008BA6ED /* DWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B0D316C92AD7008BA6ED /* DWAppDelegate.m */; };
+		2248B0D616C92AD7008BA6ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0D516C92AD7008BA6ED /* Default.png */; };
+		2248B0D816C92AD7008BA6ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0D716C92AD7008BA6ED /* Default@2x.png */; };
+		2248B0DA16C92AD7008BA6ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0D916C92AD7008BA6ED /* Default-568h@2x.png */; };
+		2248B0DD16C92AD7008BA6ED /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0DB16C92AD7008BA6ED /* MainStoryboard_iPhone.storyboard */; };
+		2248B0E016C92AD7008BA6ED /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0DE16C92AD7008BA6ED /* MainStoryboard_iPad.storyboard */; };
+		2248B0E316C92AD7008BA6ED /* DWFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B0E216C92AD7008BA6ED /* DWFirstViewController.m */; };
+		2248B0E516C92AD7008BA6ED /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0E416C92AD7008BA6ED /* first.png */; };
+		2248B0E716C92AD7008BA6ED /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0E616C92AD7008BA6ED /* first@2x.png */; };
+		2248B0EA16C92AD7008BA6ED /* DWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B0E916C92AD7008BA6ED /* DWSecondViewController.m */; };
+		2248B0EC16C92AD7008BA6ED /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0EB16C92AD7008BA6ED /* second.png */; };
+		2248B0EE16C92AD7008BA6ED /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0ED16C92AD7008BA6ED /* second@2x.png */; };
+		2248B0F616C92AD8008BA6ED /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248B0F516C92AD8008BA6ED /* SenTestingKit.framework */; };
+		2248B0F716C92AD8008BA6ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248B0C316C92AD7008BA6ED /* UIKit.framework */; };
+		2248B0F816C92AD8008BA6ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248B0C516C92AD7008BA6ED /* Foundation.framework */; };
+		2248B10016C92AD8008BA6ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0FE16C92AD8008BA6ED /* InfoPlist.strings */; };
+		2248B10316C92AD8008BA6ED /* drawebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B10216C92AD8008BA6ED /* drawebTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2248B0F916C92AD8008BA6ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2248B0B616C92AD7008BA6ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2248B0BE16C92AD7008BA6ED;
+			remoteInfo = draweb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2248B0BF16C92AD7008BA6ED /* draweb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = draweb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2248B0C316C92AD7008BA6ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2248B0C516C92AD7008BA6ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2248B0C716C92AD7008BA6ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2248B0CB16C92AD7008BA6ED /* draweb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "draweb-Info.plist"; sourceTree = "<group>"; };
+		2248B0CD16C92AD7008BA6ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2248B0CF16C92AD7008BA6ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2248B0D116C92AD7008BA6ED /* draweb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "draweb-Prefix.pch"; sourceTree = "<group>"; };
+		2248B0D216C92AD7008BA6ED /* DWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWAppDelegate.h; sourceTree = "<group>"; };
+		2248B0D316C92AD7008BA6ED /* DWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWAppDelegate.m; sourceTree = "<group>"; };
+		2248B0D516C92AD7008BA6ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2248B0D716C92AD7008BA6ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2248B0D916C92AD7008BA6ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2248B0DC16C92AD7008BA6ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2248B0DF16C92AD7008BA6ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2248B0E116C92AD7008BA6ED /* DWFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWFirstViewController.h; sourceTree = "<group>"; };
+		2248B0E216C92AD7008BA6ED /* DWFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWFirstViewController.m; sourceTree = "<group>"; };
+		2248B0E416C92AD7008BA6ED /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		2248B0E616C92AD7008BA6ED /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		2248B0E816C92AD7008BA6ED /* DWSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWSecondViewController.h; sourceTree = "<group>"; };
+		2248B0E916C92AD7008BA6ED /* DWSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWSecondViewController.m; sourceTree = "<group>"; };
+		2248B0EB16C92AD7008BA6ED /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		2248B0ED16C92AD7008BA6ED /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		2248B0F416C92AD8008BA6ED /* drawebTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawebTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2248B0F516C92AD8008BA6ED /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2248B0FD16C92AD8008BA6ED /* drawebTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "drawebTests-Info.plist"; sourceTree = "<group>"; };
+		2248B0FF16C92AD8008BA6ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2248B10116C92AD8008BA6ED /* drawebTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawebTests.h; sourceTree = "<group>"; };
+		2248B10216C92AD8008BA6ED /* drawebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawebTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2248B0BC16C92AD7008BA6ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2248B0C416C92AD7008BA6ED /* UIKit.framework in Frameworks */,
+				2248B0C616C92AD7008BA6ED /* Foundation.framework in Frameworks */,
+				2248B0C816C92AD7008BA6ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2248B0F016C92AD8008BA6ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2248B0F616C92AD8008BA6ED /* SenTestingKit.framework in Frameworks */,
+				2248B0F716C92AD8008BA6ED /* UIKit.framework in Frameworks */,
+				2248B0F816C92AD8008BA6ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2248B0B416C92AD7008BA6ED = {
+			isa = PBXGroup;
+			children = (
+				2248B0C916C92AD7008BA6ED /* draweb */,
+				2248B0FB16C92AD8008BA6ED /* drawebTests */,
+				2248B0C216C92AD7008BA6ED /* Frameworks */,
+				2248B0C016C92AD7008BA6ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2248B0C016C92AD7008BA6ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2248B0BF16C92AD7008BA6ED /* draweb.app */,
+				2248B0F416C92AD8008BA6ED /* drawebTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2248B0C216C92AD7008BA6ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2248B0C316C92AD7008BA6ED /* UIKit.framework */,
+				2248B0C516C92AD7008BA6ED /* Foundation.framework */,
+				2248B0C716C92AD7008BA6ED /* CoreGraphics.framework */,
+				2248B0F516C92AD8008BA6ED /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2248B0C916C92AD7008BA6ED /* draweb */ = {
+			isa = PBXGroup;
+			children = (
+				2248B0D216C92AD7008BA6ED /* DWAppDelegate.h */,
+				2248B0D316C92AD7008BA6ED /* DWAppDelegate.m */,
+				2248B0DB16C92AD7008BA6ED /* MainStoryboard_iPhone.storyboard */,
+				2248B0DE16C92AD7008BA6ED /* MainStoryboard_iPad.storyboard */,
+				2248B0E116C92AD7008BA6ED /* DWFirstViewController.h */,
+				2248B0E216C92AD7008BA6ED /* DWFirstViewController.m */,
+				2248B0E416C92AD7008BA6ED /* first.png */,
+				2248B0E616C92AD7008BA6ED /* first@2x.png */,
+				2248B0E816C92AD7008BA6ED /* DWSecondViewController.h */,
+				2248B0E916C92AD7008BA6ED /* DWSecondViewController.m */,
+				2248B0EB16C92AD7008BA6ED /* second.png */,
+				2248B0ED16C92AD7008BA6ED /* second@2x.png */,
+				2248B0CA16C92AD7008BA6ED /* Supporting Files */,
+			);
+			path = draweb;
+			sourceTree = "<group>";
+		};
+		2248B0CA16C92AD7008BA6ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2248B0CB16C92AD7008BA6ED /* draweb-Info.plist */,
+				2248B0CC16C92AD7008BA6ED /* InfoPlist.strings */,
+				2248B0CF16C92AD7008BA6ED /* main.m */,
+				2248B0D116C92AD7008BA6ED /* draweb-Prefix.pch */,
+				2248B0D516C92AD7008BA6ED /* Default.png */,
+				2248B0D716C92AD7008BA6ED /* Default@2x.png */,
+				2248B0D916C92AD7008BA6ED /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2248B0FB16C92AD8008BA6ED /* drawebTests */ = {
+			isa = PBXGroup;
+			children = (
+				2248B10116C92AD8008BA6ED /* drawebTests.h */,
+				2248B10216C92AD8008BA6ED /* drawebTests.m */,
+				2248B0FC16C92AD8008BA6ED /* Supporting Files */,
+			);
+			path = drawebTests;
+			sourceTree = "<group>";
+		};
+		2248B0FC16C92AD8008BA6ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2248B0FD16C92AD8008BA6ED /* drawebTests-Info.plist */,
+				2248B0FE16C92AD8008BA6ED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2248B0BE16C92AD7008BA6ED /* draweb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2248B10616C92AD8008BA6ED /* Build configuration list for PBXNativeTarget "draweb" */;
+			buildPhases = (
+				2248B0BB16C92AD7008BA6ED /* Sources */,
+				2248B0BC16C92AD7008BA6ED /* Frameworks */,
+				2248B0BD16C92AD7008BA6ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = draweb;
+			productName = draweb;
+			productReference = 2248B0BF16C92AD7008BA6ED /* draweb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2248B0F316C92AD8008BA6ED /* drawebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2248B10916C92AD8008BA6ED /* Build configuration list for PBXNativeTarget "drawebTests" */;
+			buildPhases = (
+				2248B0EF16C92AD8008BA6ED /* Sources */,
+				2248B0F016C92AD8008BA6ED /* Frameworks */,
+				2248B0F116C92AD8008BA6ED /* Resources */,
+				2248B0F216C92AD8008BA6ED /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2248B0FA16C92AD8008BA6ED /* PBXTargetDependency */,
+			);
+			name = drawebTests;
+			productName = drawebTests;
+			productReference = 2248B0F416C92AD8008BA6ED /* drawebTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2248B0B616C92AD7008BA6ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DW;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "SOOYOUNG BYUN";
+			};
+			buildConfigurationList = 2248B0B916C92AD7008BA6ED /* Build configuration list for PBXProject "draweb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2248B0B416C92AD7008BA6ED;
+			productRefGroup = 2248B0C016C92AD7008BA6ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2248B0BE16C92AD7008BA6ED /* draweb */,
+				2248B0F316C92AD8008BA6ED /* drawebTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2248B0BD16C92AD7008BA6ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2248B0CE16C92AD7008BA6ED /* InfoPlist.strings in Resources */,
+				2248B0D616C92AD7008BA6ED /* Default.png in Resources */,
+				2248B0D816C92AD7008BA6ED /* Default@2x.png in Resources */,
+				2248B0DA16C92AD7008BA6ED /* Default-568h@2x.png in Resources */,
+				2248B0DD16C92AD7008BA6ED /* MainStoryboard_iPhone.storyboard in Resources */,
+				2248B0E016C92AD7008BA6ED /* MainStoryboard_iPad.storyboard in Resources */,
+				2248B0E516C92AD7008BA6ED /* first.png in Resources */,
+				2248B0E716C92AD7008BA6ED /* first@2x.png in Resources */,
+				2248B0EC16C92AD7008BA6ED /* second.png in Resources */,
+				2248B0EE16C92AD7008BA6ED /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2248B0F116C92AD8008BA6ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2248B10016C92AD8008BA6ED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2248B0F216C92AD8008BA6ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2248B0BB16C92AD7008BA6ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2248B0D016C92AD7008BA6ED /* main.m in Sources */,
+				2248B0D416C92AD7008BA6ED /* DWAppDelegate.m in Sources */,
+				2248B0E316C92AD7008BA6ED /* DWFirstViewController.m in Sources */,
+				2248B0EA16C92AD7008BA6ED /* DWSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2248B0EF16C92AD8008BA6ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2248B10316C92AD8008BA6ED /* drawebTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2248B0FA16C92AD8008BA6ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2248B0BE16C92AD7008BA6ED /* draweb */;
+			targetProxy = 2248B0F916C92AD8008BA6ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2248B0CC16C92AD7008BA6ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2248B0CD16C92AD7008BA6ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2248B0DB16C92AD7008BA6ED /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2248B0DC16C92AD7008BA6ED /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2248B0DE16C92AD7008BA6ED /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2248B0DF16C92AD7008BA6ED /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2248B0FE16C92AD8008BA6ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2248B0FF16C92AD8008BA6ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2248B10416C92AD8008BA6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2248B10516C92AD8008BA6ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2248B10716C92AD8008BA6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "draweb/draweb-Prefix.pch";
+				INFOPLIST_FILE = "draweb/draweb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2248B10816C92AD8008BA6ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "draweb/draweb-Prefix.pch";
+				INFOPLIST_FILE = "draweb/draweb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2248B10A16C92AD8008BA6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/draweb.app/draweb";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "draweb/draweb-Prefix.pch";
+				INFOPLIST_FILE = "drawebTests/drawebTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2248B10B16C92AD8008BA6ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/draweb.app/draweb";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "draweb/draweb-Prefix.pch";
+				INFOPLIST_FILE = "drawebTests/drawebTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2248B0B916C92AD7008BA6ED /* Build configuration list for PBXProject "draweb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2248B10416C92AD8008BA6ED /* Debug */,
+				2248B10516C92AD8008BA6ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2248B10616C92AD8008BA6ED /* Build configuration list for PBXNativeTarget "draweb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2248B10716C92AD8008BA6ED /* Debug */,
+				2248B10816C92AD8008BA6ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2248B10916C92AD8008BA6ED /* Build configuration list for PBXNativeTarget "drawebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2248B10A16C92AD8008BA6ED /* Debug */,
+				2248B10B16C92AD8008BA6ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2248B0B616C92AD7008BA6ED /* Project object */;
+}
