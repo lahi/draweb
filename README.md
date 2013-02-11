@@ -1,7 +1,7 @@
 draweb
 ======
 
-This project convert web page to image file.
+This project converts web page to image file.
 
 Ways of saving
 
