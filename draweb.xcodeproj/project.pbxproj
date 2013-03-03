@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2219D93C16E3813900479240 /* DWCaptureListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2219D93B16E3813900479240 /* DWCaptureListViewController.m */; };
+		2219D94216E3862E00479240 /* DWCaptureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2219D94116E3862E00479240 /* DWCaptureCollectionViewCell.m */; };
 		2248B0C416C92AD7008BA6ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248B0C316C92AD7008BA6ED /* UIKit.framework */; };
 		2248B0C616C92AD7008BA6ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248B0C516C92AD7008BA6ED /* Foundation.framework */; };
 		2248B0C816C92AD7008BA6ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248B0C716C92AD7008BA6ED /* CoreGraphics.framework */; };
@@ -21,7 +23,6 @@
 		2248B0E316C92AD7008BA6ED /* DWWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B0E216C92AD7008BA6ED /* DWWebViewController.m */; };
 		2248B0E516C92AD7008BA6ED /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0E416C92AD7008BA6ED /* first.png */; };
 		2248B0E716C92AD7008BA6ED /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0E616C92AD7008BA6ED /* first@2x.png */; };
-		2248B0EA16C92AD7008BA6ED /* DWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B0E916C92AD7008BA6ED /* DWSecondViewController.m */; };
 		2248B0EC16C92AD7008BA6ED /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0EB16C92AD7008BA6ED /* second.png */; };
 		2248B0EE16C92AD7008BA6ED /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B0ED16C92AD7008BA6ED /* second@2x.png */; };
 		2248B0F616C92AD8008BA6ED /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248B0F516C92AD8008BA6ED /* SenTestingKit.framework */; };
@@ -43,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2219D93A16E3813900479240 /* DWCaptureListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWCaptureListViewController.h; sourceTree = "<group>"; };
+		2219D93B16E3813900479240 /* DWCaptureListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWCaptureListViewController.m; sourceTree = "<group>"; };
+		2219D94016E3862E00479240 /* DWCaptureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWCaptureCollectionViewCell.h; sourceTree = "<group>"; };
+		2219D94116E3862E00479240 /* DWCaptureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWCaptureCollectionViewCell.m; sourceTree = "<group>"; };
 		2248B0BF16C92AD7008BA6ED /* draweb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = draweb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2248B0C316C92AD7008BA6ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2248B0C516C92AD7008BA6ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,8 +67,6 @@
 		2248B0E216C92AD7008BA6ED /* DWWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWWebViewController.m; sourceTree = "<group>"; };
 		2248B0E416C92AD7008BA6ED /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		2248B0E616C92AD7008BA6ED /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		2248B0E816C92AD7008BA6ED /* DWSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWSecondViewController.h; sourceTree = "<group>"; };
-		2248B0E916C92AD7008BA6ED /* DWSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWSecondViewController.m; sourceTree = "<group>"; };
 		2248B0EB16C92AD7008BA6ED /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		2248B0ED16C92AD7008BA6ED /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		2248B0F416C92AD8008BA6ED /* drawebTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawebTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +103,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2219D93816E3810400479240 /* CaptureListTab */ = {
+			isa = PBXGroup;
+			children = (
+				2219D93A16E3813900479240 /* DWCaptureListViewController.h */,
+				2219D93B16E3813900479240 /* DWCaptureListViewController.m */,
+				2219D94016E3862E00479240 /* DWCaptureCollectionViewCell.h */,
+				2219D94116E3862E00479240 /* DWCaptureCollectionViewCell.m */,
+			);
+			name = CaptureListTab;
+			sourceTree = "<group>";
+		};
 		2248B0B416C92AD7008BA6ED = {
 			isa = PBXGroup;
 			children = (
@@ -135,14 +149,13 @@
 			children = (
 				227C900816D1369F00AC4E07 /* Util */,
 				2248B10C16C92C1E008BA6ED /* WebTab */,
+				2219D93816E3810400479240 /* CaptureListTab */,
 				2248B0D216C92AD7008BA6ED /* DWAppDelegate.h */,
 				2248B0D316C92AD7008BA6ED /* DWAppDelegate.m */,
 				2248B0DB16C92AD7008BA6ED /* MainStoryboard_iPhone.storyboard */,
 				2248B0DE16C92AD7008BA6ED /* MainStoryboard_iPad.storyboard */,
 				2248B0E416C92AD7008BA6ED /* first.png */,
 				2248B0E616C92AD7008BA6ED /* first@2x.png */,
-				2248B0E816C92AD7008BA6ED /* DWSecondViewController.h */,
-				2248B0E916C92AD7008BA6ED /* DWSecondViewController.m */,
 				2248B0EB16C92AD7008BA6ED /* second.png */,
 				2248B0ED16C92AD7008BA6ED /* second@2x.png */,
 				2248B0CA16C92AD7008BA6ED /* Supporting Files */,
@@ -320,8 +333,9 @@
 				2248B0D016C92AD7008BA6ED /* main.m in Sources */,
 				2248B0D416C92AD7008BA6ED /* DWAppDelegate.m in Sources */,
 				2248B0E316C92AD7008BA6ED /* DWWebViewController.m in Sources */,
-				2248B0EA16C92AD7008BA6ED /* DWSecondViewController.m in Sources */,
 				227C900C16D1387E00AC4E07 /* DWImageUtil.m in Sources */,
+				2219D93C16E3813900479240 /* DWCaptureListViewController.m in Sources */,
+				2219D94216E3862E00479240 /* DWCaptureCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

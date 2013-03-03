@@ -37,17 +37,11 @@
 + (NSArray *) loadImageListFromFile
 {
     NSMutableArray *imgList = [NSMutableArray array];
-    
     NSArray *pathList = [self getImgPathList];
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
-                                                         NSUserDomainMask, YES);
-    NSString *documentsDirectory = [paths objectAtIndex:0];
     
     for(NSString *p in pathList)
     {
-        NSString* path = [documentsDirectory stringByAppendingPathComponent:
-                          [NSString stringWithString:p]];
-        UIImage* image = [UIImage imageWithContentsOfFile:path];
+        UIImage* image = [UIImage imageWithContentsOfFile:p];
         [imgList addObject:image ? image : [UIImage imageNamed:@"first"]];
     }
     
