@@ -8,6 +8,7 @@
 
 #import "DWWebViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "DWImageUtil.h"
 
 @interface DWWebViewController ()
 
@@ -64,6 +65,7 @@
     
     //save image to album
     UIImageWriteToSavedPhotosAlbum(viewImage,nil,NULL,NULL);
+    [DWImageUtil saveImageToFile:viewImage];
     
     [[[self.webPage subviews] lastObject] setContentOffset:CGPointZero animated:NO];
 }
@@ -91,6 +93,7 @@
     
         //save image to album
         UIImageWriteToSavedPhotosAlbum(viewImage,nil,NULL,NULL);
+        [DWImageUtil saveImageToFile:viewImage];
     }
     
     UIGraphicsEndImageContext();
